@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+.box{
+    /* font-size: 2em; */
+    height: 350px;
+    width: fit-content;
+    background-color: rgb(165, 122, 206);
+    border: 10px solid black;
+    border-radius: 20px;
+    
+    margin: 20px auto;
+    /* padding: 10px auto; */
+    text-align: center;
+}
+
+.inputField{
+    font-size: 2rem;
+    border-radius: 10px;
+    height: 5rem;
+    text-align: center;
+}
+
+
+
+.info{
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.temp{
+    margin: 10px 0;
+}
+
+.tempmin_max{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+/* .wave{
+    opacity: 0.3;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background: white;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+    z-index: 1;
+
+}
+
+.wave .-three{
+    animation: drift 5000ms infinite linear;
+    z-index: 2 !important;
+    opacity: .2;
+}
+
+.wave .-two{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+} */
